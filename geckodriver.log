@@ -1,0 +1,4 @@
+1582982340828	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FutoylNiVzxA"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/devesh which is owned by devesh.)
+1582982353082	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AT25Nip8P98F"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/devesh which is owned by devesh.)
