@@ -21,7 +21,7 @@ url = 'https://www.google.com/search?q='
 def google_query():
 	s = requests.Session() 
 	query = input('Looking for: ')
-	browser = webdriver.Firefox(executable_path = '/home/devesh/Documents/Google/geckodriver.exe')
+	browser = webdriver.Firefox(executable_path = '/Driver/geckodriver.exe')
 	#search_request = url + query + '&ie=utf-8&oe=utf-8'
 	#google_response = s.get(search_request, headers = {'User-Agent':header}).text
 	browser.get('https://www.google.com')
